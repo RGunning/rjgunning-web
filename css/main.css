@@ -162,6 +162,23 @@ textarea {
     max-width:100%;
 }
 
+@media (max-width: 400px)
+{
+    iframe {
+        -moz-transform: scale(0.8, 0.8);
+        -webkit-transform: scale(0.8, 0.8);
+        -o-transform: scale(0.8, 0.8);
+        -ms-transform: scale(0.8, 0.8);
+        transform: scale(0.8, 0.8);
+        -moz-transform-origin: top left;
+        -webkit-transform-origin: top left;
+        -o-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+    }
+}
+
+
 .Adjust_Color_Overlay {
     background-color: rgb(74, 73, 74);
     position: absolute;
