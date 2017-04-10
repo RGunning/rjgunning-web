@@ -102,8 +102,8 @@ textarea {
 }
 
 .title {
-    font-size: 60px;
-    font-family: "Roboto Slab";
+    font-size: 3.5em;
+    font-family: "Roboto Slab", serif;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.65;
@@ -111,8 +111,8 @@ textarea {
     z-index: 119;
 }
 .subtitle {
-    font-size: 50px;
-    font-family: "Roboto Slab";
+    font-size: 2em;
+    font-family: "Roboto Slab", serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
