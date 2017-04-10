@@ -132,6 +132,7 @@ textarea {
 
 .imagemask {
     clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    max-width:100%
 }
 
 .Wood_Texture_Image {
@@ -150,6 +151,15 @@ textarea {
 .bg-white {
     background: white ;
     min-height: 650px;
+}
+@media (max-width: 768px) {
+    .bg-white {
+        min-height: 0;
+    }
+}
+
+.widget-fit {
+    max-width:100%;
 }
 
 .Adjust_Color_Overlay {
