@@ -131,12 +131,17 @@ textarea {
 }
 
 .imagemask {
-    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    max-width:100%
+    /*-webkit-clip-path: circle(50% at 50% 50%);*/
+    /*clip-path: circle(50% at 50% 50%);*/
+    border-radius: 50%;
+    /*clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+    max-width:100%;
+    display: block;
+    margin: 0 auto;
 }
 
-.Wood_Texture_Image {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/WoodTextureImage.png");
+.background_image {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/IMG_2106.JPG");
     background-size: cover;
     opacity: 0.702;
     position: fixed;
