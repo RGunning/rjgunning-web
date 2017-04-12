@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+html {
     background-color: #606061;
 }
 .navbar {
@@ -112,6 +112,7 @@ body {
     text-align: center;
     z-index: 119;
 }
+
 .subtitle {
     font-size: 2em;
     font-family: "Roboto Slab", serif;
@@ -145,10 +146,18 @@ body {
 .background_image {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/IMG_2106_2560x1920.JPG");
     background-size: cover;
-    opacity: 0.702;
+    /*opacity: 0.702;*/
     position: fixed;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .background_image {    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/IMG_2106_1024x768.JPG");}
+}
+
+@media (max-width: 933px) {
+    .background_image {    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/IMG_2106_933x700.JPG");}
 }
 
 .headerpadding {
