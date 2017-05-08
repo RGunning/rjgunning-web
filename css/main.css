@@ -169,10 +169,14 @@ html {
 
 .bg-white {
     background: white ;
+}
+
+.box650  {
     min-height: 650px;
 }
+
 @media (max-width: 768px) {
-    .bg-white {
+    .box650 {
         min-height: 0;
     }
 }

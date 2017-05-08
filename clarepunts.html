@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Richard Gunning</title>
+    <meta name="description" content="Personal Website for Richard Gunning">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="background_image"></div>
+
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!--<div class="navbar-header">-->
+            <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
+            <!--</div>-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="aboutme.html" title="About Me Page">About Me</a></li>
+                    <li><a href="http://historytothepublic.org" title="History To The Public site">HTTPhistory</a></li>
+                    <li><a href="freelance.html" title="Freelance Jobs page">Freelance</a></li>
+                    <li class="active"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="headerpadding"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12"><h1 class="title">Clare Punts</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 bg-white center">
+
+            <div class="row">
+                <div class="col-xs-12 center">
+                    <p>The Clare Punts booking website was developed to create a unified booking site for the whole of Clare College. Previously the Clare College MCR had a PhP booking site whilst the JCR used a paper booking system. Design requirements were to create a mobile friendly design with a simple interface that showed current booking status.</p>
+                    <p>The new Clare Punts booker was created in AngularJS to create a fluid interactive site. A REST backend was created in PHP using the <a href="https://github.com/jacwright/RestServer">jacwright Restserver library</a>. The site was completed in June 2016.</p>
+
+                    <p>The Booker was designed to have a minimalistic feel sticking to the colours of the college. To ensure fair use of the punts, the different groups in the college body where given quotas on how many punts they could book concurrently. Limitations were also implemented on how many punts could be booked by an individual per day.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 center">
+                    <div class="thumbnail">
+                        <a href="img/ClarePunts/ClarePunts-home.png"><img src="img/ClarePunts/ClarePunts-home.png"
+                                                                          title="Clare punts Website Home"
+                                                                          alt="Clare Punts Homepage screenshot">
+                            <div class="caption">
+                                <p>Clare College Punts home page.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-8 center">
+                    <p>The design for the homepage was to give a minimalistic view of the current status of the punts. This page is used by staff for handing out the keys, so needed to contain information on who has booked the punts, who last had the punt and who has it next. Traffic lights next to the name of the punt are used to show if the punt is available now (green), in use (yellow), or unavailable (red).</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 center">
+                    <div class="thumbnail">
+                        <a href="img/ClarePunts/ClarePunts-bookpunt.png"><img src="img/ClarePunts/ClarePunts-bookpunt.png"
+                                                                          title="Clare punts Website Book"
+                                                                          alt="Clare Punts BookAPunt screenshot">
+                            <div class="caption">
+                                <p>Clare College Punts make booking page.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-8 center">
+                    <p>The make booking page was designed to provide a quick select a date and show any booking conflicts for that day. A box at the top shows the term dates for the current year as boking restrictions change inside and outside of term time.</p>
+                    <p>AngularJS was used to update the conflicts in real-time and to validate whether the booking is valid.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 center">
+                    <div class="thumbnail">
+                        <a href="img/ClarePunts/ClarePunts-myBookings.png"><img src="img/ClarePunts/ClarePunts-myBookings.png"
+                                                                              title="Clare punts Website myBookings"
+                                                                              alt="Clare Punts my bookings page screenshot">
+                            <div class="caption">
+                                <p>Clare College Punts my bookings page.</p><p>The my bookings page lists the upcoming bookings for a user, with a simple check box and delet button for managing bookings.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 center">
+                    <div class="thumbnail">
+                        <a href="img/ClarePunts/ClarePunts-adminPunts.png"><img src="img/ClarePunts/ClarePunts-adminPunts.png"
+                                                                                title="Clare punts Website Admin Punts"
+                                                                                alt="Clare Punts admin punts page screenshot">
+                            <div class="caption">
+                                <p>Clare College Punts Admin page for punts.</p>
+                                <p>Admin page for the punts was designed to give a simple interface for adding punts, deleting punts and changing when they are available.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 center">
+                    <div class="thumbnail">
+                        <a href="img/ClarePunts/ClarePunts-adminUsers.png"><img src="img/ClarePunts/ClarePunts-adminUsers.png"
+                                                                                title="Clare punts Website Admin Users"
+                                                                                alt="Clare Punts admin users page screenshot">
+                            <div class="caption">
+                                <p>Clare College Punts Admin page for users.</p>
+                                <p>Admin page for the users was designed to give a simple interface for adding users on bulk, deleting users and modifying users rights. A table at the bottom allows searching the database of Users.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="social-icons" class="col-sm-12 socialicons">
+            <a target="_blank" href="https://www.mql5.com/en/users/rjgunning" title="MQL5"><span
+                    class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i><i
+                    class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i></span></a>
+            <a target="_blank" href="mailto:rjgunning+myWebsite@gmail.com" title="Mail"><span
+                    class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i><i
+                    class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></span></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rjgunning" title="Linked In"><span
+                    class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i><i
+                    class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
+            <a target="_blank" href="https://twitter.com/rjgunning" title="Twitter"><span class="fa-stack fa-lg"> <i
+                    class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+            <a target="_blank" href="https://github.com/RGunning" title="Github"><span class="fa-stack fa-lg"> <i
+                    class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+
+        </div>
+    </div>
+</div>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = 'https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-75726624-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
