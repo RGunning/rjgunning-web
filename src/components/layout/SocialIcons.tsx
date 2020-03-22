@@ -32,12 +32,10 @@ function SocialIcons() {
   return (
     <div id="social-icons" className="socialicons">
       {links.map(link => (
-        <a target="_blank" rel="noopener noreferrer" href={link.link} title={link.name}>
+        <a target="_blank" key={link.name} rel="noopener noreferrer" href={link.link} title={link.name}>
           <Icon className="icon large teal-text" icon={link.icon} />
         </a>
       ))}
-
-
     </div>
   )
 }
