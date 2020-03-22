@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Test
-        run: yarn Test
+        run: yarn test
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
