@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommits"
+  ],
+  "rebaseWhen": "behind-base-branch",
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}
