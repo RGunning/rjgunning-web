@@ -1023,10 +1023,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-mdi@1.1.30":
-  version "1.1.30"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.30.tgz#44a238ee592b040aff37fb6c95349723ae12f35c"
-  integrity sha512-srApYrZkEoiQp08bI0N8w7KqPVO2kJGNYbyBgyF5Q4wK6a7cF+bt5xLSwEfIzlq4jBixAtfWo3JhrTcbutGEyA==
+"@iconify/icons-mdi@1.1.31":
+  version "1.1.31"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.31.tgz#d974b8fd101b46a06577d146d93d50dde3fef882"
+  integrity sha512-3/VKAYEyW525T+RVmgXHngRc9OsYS1LIcA3Yz5meVwWYOA4tZ5FyYNWCdyJ+MlspAyOslozI+/ftqrspEZKdiA==
 
 "@iconify/react@1.1.4":
   version "1.1.4"
